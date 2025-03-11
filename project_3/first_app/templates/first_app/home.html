@@ -24,7 +24,7 @@
       <h1>{{ i.fee }}</h1>
       <br />
     {% endfor %}
-    
+
     <h1>This <em>should be</em> fun!</h1>
     
     <h2>{{ " " | default:"This is a default value" }}</h2>
@@ -33,5 +33,7 @@
 
     <h2>{{lst | join:" - "}}</h2>
     <h2>{{birthday | date:"D / d / M / Y"}}</h2>
+
+   <h3> {{<b>I</b> <button>love</button> <span>dogs</span> | striptags}}</h3>
   </body>
 </html>
